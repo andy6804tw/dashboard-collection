@@ -1,0 +1,81 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Admin - AI知識應用暨系統實作邀請賽</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link href="../../css/sb-admin-2.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+    crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header id="header">
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">AI知識應用暨系統實作邀請賽 個人後臺管理</a>
+      </div>
+      <ul id="navbar-collapse" class="nav navbar-top-links navbar-right" role="navigation">
+        <li>
+          <a href="http://140.133.13.49/2019-FML-competition/tw/index.html"><i class="fa fa-home"></i> Home</a>
+        </li>
+        <li class="dropdown" id="toggle" expanded="true">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+            <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href=""><i class="fa fa-user fa-fw"></i>
+                Modify Information</a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-key fa-fw"></i>
+                Modify Password</a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-upload fa-fw"></i>
+                Upload</a>
+            </li>
+            <li class="divider"></li>
+            <li>
+              <a href="javascritp: return false;" onclick="logout()"><i class="fas fa-sign-out-alt fa-fw"></i> Logout</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div id="main" class="container">
+    <h3>Information</h3>
+    <form data-toggle="validator" role="form" novalidate="true" action="javascritp: return false;" method="post">
+      <div class="list-group">
+        <div class="list-group-item">
+          <i class="fa fa-users"></i> Team name : <span id="user_team_name"></span> </div>
+        <div class="list-group-item">
+          <i class="fa fa-user"></i> Username : <span id="user_name"></span> </div>
+        <div class="list-group-item form-group">
+          <i class="fa fa-envelope"></i> Email address:
+          <input type="email" class="form-control" id="user_email" name="email" placeholder="Email" value="sasd">
+        </div>
+        <div class="list-group-item form-group">
+          <i class="fa fa-users"></i> Member:
+          <textarea class="form-control" id="user_member" name="member" placeholder="Member" rows="5"></textarea>
+        </div>
+      </div>
+      <div class="form-group has-error">
+        <div class="help-block with-errors"></div>
+      </div>
+      <div class="text-right">
+        <button type="submit" name="modifyInfo" class="btn btn-primary">Submit</button>
+        <button type="reset" class="btn btn-primary">Reset</button>
+      </div>
+    </form>
+  </div>
+  <script src="js/dashboard.js"></script>
+</body>
+
+</html>
