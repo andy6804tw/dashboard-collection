@@ -1,9 +1,11 @@
 
 const toggle=document.getElementById('toggle');
+const dropdown = document.getElementById('dropdown');
 
 document.body.addEventListener('click', function (evt) {
   if (toggle.getAttribute("expanded") == "false") {
-    toggle.className = "dropdown";
+    toggle.classList.remove("show");
+    dropdown.classList.remove("show");
     toggle.setAttribute("expanded", "true");
   }
   
@@ -11,10 +13,12 @@ document.body.addEventListener('click', function (evt) {
 
 toggle.addEventListener('click', function (event) {
   if (toggle.getAttribute("expanded") == "true") {
-    toggle.className = "dropdown open";
+    toggle.classList.add("show");
+    dropdown.classList.add("show");
     toggle.setAttribute("expanded", "false");
   } else {
-    toggle.className = "dropdown";
+    toggle.classList.remove("show");
+    dropdown.classList.remove("show");
     toggle.setAttribute("expanded", "true");
   }
   event.stopPropagation();
