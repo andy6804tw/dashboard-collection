@@ -15,44 +15,53 @@
 
 <body>
   <header id="header">
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-between" role="navigation">
-      <!-- Brand -->
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">Start Bootstrap4 Admin</a>
-      </div>
-      <!-- Links -->
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa fa-home"></i>
-            Home</a>
-        </li>
-        <!-- Dropdown -->
-        <li class="nav-item dropdown" id="toggle" expanded="true">
-          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-            <i class="fa fa-user fa-fw"></i>
-          </a>
-          <div class="dropdown-menu dropdown-menu-right" id="dropdown">
-            <a class="dropdown-item" href="">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark"><!-- Brand -->
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Start Bootstrap4 Admin</a>
+        </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=""
+        aria-controls="" aria-expanded="true" aria-label="Toggle navigation" id="toggleButton">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse justify-content-end" id="toggleNavbar">
+        
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-home"></i>
+              Home</a>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown" id="toggle" expanded="true">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
               <i class="fa fa-user fa-fw"></i>
-              Modify Information
             </a>
-            <a class="dropdown-item" href="./password.html">
-              <i class="fa fa-key fa-fw"></i>
-              Modify Password
-            </a>
-            <a class="dropdown-item" href="">
-              <i class="fa fa-upload fa-fw"></i>
-              Upload
-            </a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="javascritp: return false;" onclick="logout()">
-              <i class="fas fa-sign-out-alt fa-fw"></i>
-              Logout
-            </a>
-          </div>
-        </li>
-      </ul>
+            <div class="dropdown-menu dropdown-menu-right" id="dropdown">
+              <a class="dropdown-item" href="">
+                <i class="fa fa-user fa-fw"></i>
+                Modify Information
+              </a>
+              <a class="dropdown-item" href="./password.html">
+                <i class="fa fa-key fa-fw"></i>
+                Modify Password
+              </a>
+              <a class="dropdown-item" href="">
+                <i class="fa fa-upload fa-fw"></i>
+                Upload
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="javascritp: return false;" onclick="logout()">
+                <i class="fas fa-sign-out-alt fa-fw"></i>
+                Logout
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
     </nav>
+
+    
   </header>
   <div id="main" class="container mt-5">
     <h3>Information</h3>
