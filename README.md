@@ -15,11 +15,11 @@ All the projects are based on [Bootstrap4](http://startbootstrap.com/) framework
                 <a href="https://andy6804tw.github.io/responsive-navigation-bar/">responsive-navigation-bar</a>
             </td>
             <td>
-                <img src="sb-admin/screenshot/demo.gif" width="300px"><br>
+                <img src="SB admin/screenshot/demo.gif" width="300px"><br>
                 <a href="https://andy6804tw.github.io/sb-admin/sb-admin">SB admin</a>
             </td>
             <td>
-                <img src="sb-admin/screenshot/demo.gif" width="300px"><br>
+                <img src="SB admin/screenshot/demo.gif" width="300px"><br>
                 <a href="https://andy6804tw.github.io/sb-admin/sb-admin">SB admin</a>
             </td>
         </tr>
