@@ -20,7 +20,7 @@ All the projects are based on [Bootstrap4](http://startbootstrap.com/) framework
             </td>
             <td>
                 <img src="Sidebar Collapse/screenshot/demo.gif" width="300px"><br>
-                <a href="https://andy6804tw.github.io/dashboard-collection/Sidebar Collapse">SB admin</a>
+                <a href="https://andy6804tw.github.io/dashboard-collection/Sidebar Collapse">Sidebar Collapse</a>
             </td>
         </tr>
         <tr>
