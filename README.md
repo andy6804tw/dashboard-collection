@@ -16,11 +16,11 @@ All the projects are based on [Bootstrap4](http://startbootstrap.com/) framework
             </td>
             <td>
                 <img src="SB admin/screenshot/demo.gif" width="300px"><br>
-                <a href="https://andy6804tw.github.io/dashboard-collection/sb-admin">SB admin</a>
+                <a href="https://andy6804tw.github.io/dashboard-collection/SB admin">SB admin</a>
             </td>
             <td>
-                <img src="SB admin/screenshot/demo.gif" width="300px"><br>
-                <a href="https://andy6804tw.github.io/dashboard-collection/sb-admin">SB admin</a>
+                <img src="Sidebar Collapse/screenshot/demo.gif" width="300px"><br>
+                <a href="https://andy6804tw.github.io/dashboard-collection/Sidebar Collapse">SB admin</a>
             </td>
         </tr>
         <tr>
