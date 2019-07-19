@@ -12,7 +12,7 @@ All the projects are based on [Bootstrap4](http://startbootstrap.com/) framework
         <tr>
             <td>
                 <img src="responsive-navigation-bar/screenshot/demo.gif" width="300px"><br>
-                <a href="https://andy6804tw.github.io/dashboard-collectionresponsive-navigation-bar/">responsive-navigation-bar</a>
+                <a href="https://andy6804tw.github.io/dashboard-collection/responsive-navigation-bar/">responsive-navigation-bar</a>
             </td>
             <td>
                 <img src="SB admin/screenshot/demo.gif" width="300px"><br>
