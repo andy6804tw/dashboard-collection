@@ -24,6 +24,10 @@ All the projects are based on [Bootstrap4](http://startbootstrap.com/) framework
             </td>
         </tr>
         <tr>
+            <td>
+                <img src="fancy-dashbboard/screenshot/demo.png" width="300px"><br>
+                <a href="https://andy6804tw.github.io/dashboard-collection/fancy-dashbboard">fancy dashbboard</a>
+             </td>
         </tr>
     </tbody>
 </table>
